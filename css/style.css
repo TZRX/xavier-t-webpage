@@ -1,5 +1,5 @@
 body {
-  background-color:rgb(72,72,72);
+  background-color:rgb(32,32,32);
   color: #f4f4f4;
 }
 
@@ -20,14 +20,25 @@ h1 {
 h2 {
   color: cyan;
   font-family: verdana;
+  margin-left: 300px;
 }
 
 h3 {
+  color:lightblue;
   font-family: verdana;
+  margin-left: 300px;
 }
 
 p {
   font-family: verdana;
+  text-align: justify;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+img {
+  margin-right: 300px;
+  padding-left: 30px;
 }
 
 ul{
