@@ -1,6 +1,8 @@
 body {
   background-color:rgb(32,32,32);
   color: #f4f4f4;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 a {
@@ -20,25 +22,21 @@ h1 {
 h2 {
   color: cyan;
   font-family: verdana;
-  margin-left: 300px;
+  font-size: 23px;
 }
 
 h3 {
   color:lightblue;
   font-family: verdana;
-  margin-left: 300px;
 }
 
 p {
   font-family: verdana;
   text-align: justify;
-  margin-left: 300px;
-  margin-right: 300px;
 }
 
 img {
-  margin-right: 300px;
-  padding-left: 30px;
+  padding: 15px;
 }
 
 ul{
@@ -68,6 +66,14 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
 }
 
 .center {
